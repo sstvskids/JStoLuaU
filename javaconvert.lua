@@ -150,7 +150,6 @@ java.Conversion = {
             elseif node.type == 'Idenitifier' then
                 return node.name
             end
-
             return ''
         end
         return processNode(ast)
